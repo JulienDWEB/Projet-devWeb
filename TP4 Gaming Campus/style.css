@@ -1,0 +1,223 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(Font/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+  /* border: 1px solid red; */
+  font-family: "Montserrat";
+  font-weight: 500;
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav ul {
+  display: flex;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  color: #544392;
+}
+nav ul li {
+  font-weight: 700;
+  margin: 20px;
+  padding: 10px 0;
+}
+#language {
+  background-color: rgba(188, 187, 187, 0.749);
+  border-radius: 25px;
+  padding: 10px 13px;
+}
+#language:hover {
+  background-color: rgba(238, 236, 236, 0.857);
+  cursor: pointer;
+}
+body {
+  margin: 0;
+}
+.main-header {
+  overflow: hidden;
+  position: relative;
+}
+
+.main-header #main-img {
+  background-image: url(assets/img/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.main-header #main-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-header h1 {
+  text-transform: uppercase;
+  color: #f3f3f3;
+  font-size: 1.5rem;
+}
+.main-header button {
+  background: none;
+  outline: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #f3f3f3;
+  padding: 10px 25px;
+  border: 1px solid #f3f3f3;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.main-header button:hover {
+  background-color: #c3c2c26a;
+  color: #ffffff;
+  cursor: pointer;
+}
+.header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+.header-text p {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin: 0 15% 0 15%;
+  text-align: center;
+}
+.icon-part {
+  background-color: rgb(15, 15, 15);
+}
+.icon-part-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 150px 0 150px;
+}
+.list-icon-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px;
+  padding: 50px 0 50px 0;
+  height: 500px;
+}
+.lip-logo {
+  padding-bottom: 20px;
+}
+.list-icon-part h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.list-icon-part p {
+  margin: 0 0 25px 0;
+  padding: 0 120px 0 120px;
+}
+.list-icon-part button {
+  background: none;
+  outline: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #f3f3f3;
+  padding: 10px 25px;
+  border: 1px solid #f3f3f3;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.list-icon-part button:hover {
+  background-color: #c3c2c26a;
+  color: #ffffff;
+  cursor: pointer;
+}
+.header-news {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  justify-content: space-between;
+}
+.left-part {
+  margin: 0 auto;
+}
+
+.left-part h2 {
+  text-transform: uppercase;
+}
+
+.left-part p {
+  font-weight: 700;
+}
+.right-part {
+  margin: 25px auto;
+}
+
+.right-part button {
+  background: none;
+  outline: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #1e1e1e;
+  padding: 10px 25px;
+  border: 1px solid #353535;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 0 300px 0 0;
+}
+.right-part button:hover {
+  background-color: #c3c2c26a;
+  color: #b7b7b7;
+  cursor: pointer;
+}
+
+.main-news-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  max-width: 1100px;
+  margin: 45px auto;
+}
+
+.main-news-container > div {
+  position: relative;
+  max-width: 80%;
+}
+.mn-pic img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 2px 10px #888;
+}
+.main-news-container h4 {
+  margin: 15px 0;
+  text-align: left;
+}
+.main-news-container p {
+  text-align: left;
+  font-size: 0.8rem;
+  line-height: 20px;
+  margin-bottom: 45px;
+}
+.link {
+}
+.link a {
+  text-decoration: none;
+  color: #4b1e63;
+  position: absolute;
+  text-align: left;
+  bottom: 0;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
